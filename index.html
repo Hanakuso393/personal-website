@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Ryan Sayaboc
+EMAIL: rsayaboc@uci.edu
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ryan Sayaboc">
+    <meta name="description" content="personal website">
+    <!-- you would link to an external stylesheet here! -->
+
+    <!-- you would also link to Bootstrap here! -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Ryan's Website</title>
+</head>
+
+<body class="vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand justify-content-end fs-1 display-1" href="#">RS</a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header border-bottom text-white">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3 ps-3">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="w-100 vh-100 d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col intro-text">
+                    <p class="display-3">Hello, I'm Ryan - Computer Science student at UC Irvine!</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+</body>
+
+<section id="projects" class="bg-light pt-5 text-center">
+    <div class="container-lg">
+        <div class="text-center pb-5">
+            <h2 class="display-4"> Projects </h2>
+        </div>
+        <div class="row pb-5 align-items-center ">
+            <div class="col d-flex justify-content-center mb-5" >
+                <div class="card" style="width: 25rem;">
+                    <img src="images/expense_tracker.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Expense Tracker</h5>
+                      <p class="card-text text-start">Developed an intuitive URL shortener web application utilizing
+                        React.js framework for the frontend coupled with Python Flask and Google Firebase for the backend. This was
+                        my attempt at a full stack project that was aimed to provide users with a convenient way to shorten long
+                        URL's and track click statistic</p>
+                      <a href="https://github.com/Hanakuso393/expense-tracker-react-firebase" target="_blank" class="btn btn-primary">Code</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-5">
+                <div class="card card-style" style="width: 25rem;">
+                    <img src="images/shrinklinkdemo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Shrink Link</h5>
+                      <p class="card-text text-start">Designed and developed an intuitive web-based expense tracker
+                        application using React.js framework
+                        to help users manage and moniter their finances. To ensure privacy I implemented a sign in/authentication
+                        feature in which the users
+                        sign into their Google account in order to access their finances. This not only gives an added layer of
+                        security but it also alows multiple
+                        users to use this application wherever and whenever as all expenses are associated with their Google
+                        account.</p>
+                      <a href="https://github.com/Hanakuso393/shrink-link-client" target="_blank" class="btn btn-primary">Code</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-5">
+                <div class="card" style="width: 25rem;">
+                    <img src="images/download.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tic Tac Toe</h5>
+                      <p class="card-text text-start">I developed a multiplayer Tic-Tac-Toe game with a user-friendly graphical user interface and socket integration, allowing players to engage in real-time gameplay over a local network. I effectively utilized the Tkinter toolkit to create the GUI and Python’s socket library to handle network communication. This project challenged me to implement an object oriented design along with socket programming to establish a server-client architecture to enable seamless data exchange between players. </p>
+                      <a href="https://github.com/Hanakuso393" target="_blank" class="btn btn-primary">Code</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-5">
+                <div class="card " style="width: 25rem;">
+                    <img src="images/calc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Basic Calculator</h5>
+                      <p class="card-text text-start">In this project, I created a basic calculator using HTML, CSS, and JavaScript. Building the calculator challenged me to gain familiarity with a grid style design utilizing CSS. It also required an efficient implementation of JavaScript mathematical functions in order to handle calculations appropriately. </p>
+                      <a href="https://github.com/Hanakuso393/calculator" target="_blank" class="btn btn-primary">Code</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-light pt-4 pb-4 ps-3">
+    <small >&#169; Ryan Sayaboc 2024</small>
+</footer>
+
+
+</html>

@@ -1,0 +1,40 @@
+body {
+
+    background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.projects {
+    margin-top: 5em;
+}
+
+
+
+
+
